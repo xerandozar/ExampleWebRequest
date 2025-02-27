@@ -1,8 +1,18 @@
 ﻿# Example Web Request
 
 ## Step 1: Start the Upload Server
-- Run the following command to start the Upload Server: <code>npm --prefix "./UploadServer" start</code>
+
+Run the following commands to set up and start the server:
+
+```
+cd UploadServer
+npm install
+npm start
+```
 
 ## Step 2: Start the Unity Project
-- The Unity project is configured to use the Upload Server API by default
-- Click the Upload Image button to upload Awesome.png
+
+1. Open **Unity**.
+2. Load **SampleScene** from `/Assets/Scenes/SampleScene`
+3. Play the scene in the Unity Editor.
+4. Click **Upload Image** to upload `Awesome.png`
